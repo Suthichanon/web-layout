@@ -1,0 +1,88 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.Main {
+    background-color: rgb(224, 224, 224);
+    padding: 40px 40px 40px 40px;
+
+}
+
+.logo {
+    background-color: rgb(155, 155, 155);
+    padding: 25px;
+    min-height: auto;
+    margin-bottom: 10px;
+    
+
+}
+
+.Nav {
+    background-color: rgb(155, 155, 155);
+    text-align: right;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+.grid-container {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 100px;
+    background-color: rgb(224, 224, 224);
+}
+  
+  .grid-container > div {
+    background-color: rgb(155, 155, 155);
+    padding: 50px 0px;
+}
+
+
+
+.b1 {
+    margin-top: 20px;
+    background-color: rgb(155, 155, 155);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33.3%;
+    height: 200px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.b2 {
+    margin-top: 20px;
+    background-color: rgb(155, 155, 155);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33.3%;
+    height: 1fr;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.b3{
+    margin-top: 20px;
+    background-color: rgb(155, 155, 155);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33.3%;
+    height: 1fr;
+    margin-bottom: 20px;
+}
+
+
+.footer {
+    padding-top: 10px;
+    background-color: rgb(155, 155, 155);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    block-size: 30px;
+    
+}

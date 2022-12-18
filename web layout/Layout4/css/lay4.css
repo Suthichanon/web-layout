@@ -1,0 +1,246 @@
+body {
+    margin: 0px;
+    
+}
+
+.head {
+    background-color: black;
+    max-width: 100%;
+    height: 50px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: normal;
+    align-items: normal;
+    align-content: normal;
+    height: 100vh;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.items:nth-child(1) {
+    display: block;
+    flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    margin: 25px;
+}
+
+.items:nth-child(2) {
+    display: block;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+}
+
+.head-left {
+    background-color: rgb(150, 150, 150);
+    max-width: 100%;
+    height: 50px;
+
+}
+
+.left-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: normal;
+    align-items: normal;
+    align-content: normal;
+}
+
+.left-items:nth-child(1) {
+    display: block;
+    flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+}
+
+.left-items:nth-child(2) {
+    display: block;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    margin-top: 10px;
+    border: solid rgb(200, 200, 200) 2px;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.Colum1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: normal;
+    align-content: stretch;
+
+}
+
+.C:nth-child(1) {
+    display: block;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    max-width: 100%;
+    height: 250px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.C:nth-child(2) {
+    display: block;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    max-width: 100%;
+    height: 250px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.C:nth-child(3) {
+    display: block;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    max-width: 100%;
+    height: 250px;
+    margin-top: 20px;
+    margin-right: 20px;
+
+}
+
+.hed1 {
+    background-color: rgb(100, 100, 100);
+    max-width: 100%;
+    height: 40px;
+}
+
+.bod1 {
+    margin-top: 10px;
+    background-color: rgb(150, 150, 150);
+    max-width: 100%;
+    height: 150px;
+}
+
+.fot1 {
+    margin-top: 5px;
+    background-color: rgb(200, 200, 200);
+    max-width: 100%;
+    height: 15px;
+}
+
+.fot2 {
+    margin-top: 2px;
+    background-color: rgb(200, 200, 200);
+    max-width: 100%;
+    height: 15px;
+}
+
+.linen1 {
+    margin-right: 20px;
+    margin-top: 5px;
+    background-color: rgb(100, 100, 100);
+    max-width: 100%;
+    height: 10px;
+    
+}
+
+.linen2 {
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: rgb(100, 100, 100);
+    max-width: 100%;
+    height: 250px;
+}
+
+.box {
+    margin-right: 10px;
+    margin-top: 25px;
+    background-color: rgb(100, 100, 100);
+    max-width: 100%;
+    height: 40%;
+}
+
+.liner {
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: rgb(100, 100, 100);
+    max-width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+
+.conR {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.imagebox{
+    display: flex;
+    flex-basis: 50%;
+    background-color: rgb(150, 150, 150);
+    height: 165px;
+    
+}
+
+.textline{
+    margin-bottom: 7.5px;
+    display: flex;
+    background-color: rgb(200, 200, 200);
+    width: 100%;
+    height: 20px;
+    margin-right: 10px;
+}
+.textbox{
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    flex-basis: 75%;
+
+}
+.textlineout{
+    margin-top: 1px;
+    display: flex;
+    background-color: rgb(200, 200, 200);
+    height: 20px;
+    margin-right: 10px;
+}
+.textlineOutb{
+    margin-top: 0px;
+    display: flex;
+    background-color: rgb(200, 200, 200);
+    height: 50px;
+    
+}
+.linen111 {
+    margin-right: 10px;
+    margin-top: 20px;
+    background-color: rgb(100, 100, 100);
+    max-width: 100%;
+    height: 10px;
+    margin-bottom: 20px;
+}
